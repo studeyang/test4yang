@@ -69,7 +69,7 @@ typora-root-url: images
 
 ### Neo4j学习资料
 
-学习教程：https://www.w3cschool.cn/neo4j/?*
+学习教程：https://www.w3cschool.cn/neo4j/
 
 *官网：https://neo4j.com/*
 
