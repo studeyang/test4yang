@@ -1,5 +1,6 @@
-package yang.learn.neo4j;
+package neo4j;
 
+import neo4j.JdbcQuery;
 import org.junit.Before;
 import org.junit.Test;
 

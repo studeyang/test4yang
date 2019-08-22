@@ -1,4 +1,4 @@
-package yang.learn.neo4j;
+package neo4j;
 
 import java.sql.*;
 
