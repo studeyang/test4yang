@@ -1,6 +1,5 @@
 package neo4j;
 
-import neo4j.JavaApiQuery;
 import org.junit.Before;
 import org.junit.Test;
 

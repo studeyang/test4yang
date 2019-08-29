@@ -1,6 +1,5 @@
 package neo4j;
 
-import neo4j.DriverQuery;
 import org.junit.Before;
 import org.junit.Test;
 import org.neo4j.driver.v1.StatementResult;
