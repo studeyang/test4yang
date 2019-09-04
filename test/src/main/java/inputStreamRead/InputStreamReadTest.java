@@ -8,6 +8,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * InputStream read方法测试
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class InputStreamReadTest {
 
     @Test

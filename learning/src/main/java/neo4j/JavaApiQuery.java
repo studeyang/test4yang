@@ -11,6 +11,12 @@ import org.neo4j.graphdb.traversal.Uniqueness;
 import java.io.File;
 import java.util.Iterator;
 
+/**
+ * JavaApi查询方式
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class JavaApiQuery {
 
     private static final String DBPATH = "D:/Program Files/Neo4j CE 3.2.0/graphdb";

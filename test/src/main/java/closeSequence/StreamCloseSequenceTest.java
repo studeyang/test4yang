@@ -10,6 +10,12 @@ import org.junit.Test;
 
 import java.io.*;
 
+/**
+ * 流的关闭顺序问题
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class StreamCloseSequenceTest {
 
     private PdfReader pdfReader;

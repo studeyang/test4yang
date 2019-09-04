@@ -2,6 +2,12 @@ package neo4j;
 
 import org.neo4j.driver.v1.*;
 
+/**
+ * 驱动查询方式
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class DriverQuery {
 
     private static final String URI = "bolt://localhost:7687";

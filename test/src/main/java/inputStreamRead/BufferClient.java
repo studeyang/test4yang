@@ -5,6 +5,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
+/**
+ * 客户端：读取流数据测试
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class BufferClient {
 
     public static void main(String[] args) throws IOException {

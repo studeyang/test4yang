@@ -2,6 +2,12 @@ package neo4j;
 
 import java.sql.*;
 
+/**
+ * JDBC查询方式
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class JdbcQuery {
 
     private static final String URL = "jdbc:neo4j://172.23.22.172:7474";

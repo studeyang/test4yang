@@ -7,6 +7,12 @@ import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * 服务端：读取流数据测试
+ *
+ * @author yangll
+ * @date 20190904
+ */
 public class Server {
 
     public static void main(String[] args) throws IOException {
