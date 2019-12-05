@@ -1,0 +1,3 @@
+type Ci {
+    product_number: String
+}
