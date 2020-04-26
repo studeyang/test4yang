@@ -12,6 +12,8 @@
     <modules>
         <module>learning</module>
         <module>test</module>
+        <module>jvmDemo</module>
+        <module>JavaThread</module>
     </modules>
 
     <build>
