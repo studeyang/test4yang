@@ -38,8 +38,8 @@ public class Html2wordTest {
 
     @Test
     public void pdf2word_spirePdf() {
-        String pdfFile = "D:/test/卷皮/1.pdf";
-        String docFile = "D:/test/卷皮/卷皮.doc";
+        String pdfFile = "D:/Downloads/杨渌渌_2016年毕业_Java高级开发工程师.pdf";
+        String docFile = "D:/Downloads/杨渌渌_2016年毕业_Java高级开发工程师.docx";
         SpirePdf2word.convert(pdfFile, docFile);
     }
 

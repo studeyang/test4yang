@@ -7,7 +7,7 @@ public class SpirePdf2word {
 
     public static void convert(String pdfFile, String docFile) {
         PdfDocument pdf = new PdfDocument(pdfFile);
-        pdf.saveToFile(docFile, FileFormat.DOC);
+        pdf.saveToFile(docFile, FileFormat.DOCX);
     }
 
 }
