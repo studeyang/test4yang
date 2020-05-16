@@ -1,5 +1,7 @@
 package boxing;
 
+import javax.swing.*;
+
 public class Boxing {
 
     public static void main(String[] args) {
@@ -8,6 +10,9 @@ public class Boxing {
         if (x == y) {
             System.out.println("yes");
         }
+
+
+        System.out.println(new Boxing().hashCode());
     }
 
 }
