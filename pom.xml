@@ -14,6 +14,7 @@
         <module>test</module>
         <module>jvmDemo</module>
         <module>JavaThread</module>
+        <module>JavaIO</module>
     </modules>
 
     <build>

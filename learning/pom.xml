@@ -15,6 +15,10 @@
     <artifactId>learning</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <spring.version>5.1.6.RELEASE</spring.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.neo4j</groupId>
@@ -59,6 +63,22 @@
             <version>13.0</version>
         </dependency>
 
+        <!--spring framework-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
 
     </dependencies>
 
