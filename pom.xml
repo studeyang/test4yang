@@ -10,9 +10,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>learning</module>
         <module>test</module>
-        <module>jvmDemo</module>
+        <module>JvmDemo</module>
         <module>JavaThread</module>
         <module>JavaIO</module>
     </modules>
