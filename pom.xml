@@ -14,6 +14,7 @@
         <module>JvmDemo</module>
         <module>JavaThread</module>
         <module>JavaIO</module>
+        <module>LeetCode</module>
     </modules>
 
     <build>
@@ -29,5 +30,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 
 </project>
