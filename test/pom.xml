@@ -75,11 +75,11 @@
             <version>1.11.3</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.jacob</groupId>
-            <artifactId>jacob</artifactId>
-            <version>1.18-M2</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>com.jacob</groupId>-->
+        <!--            <artifactId>jacob</artifactId>-->
+        <!--            <version>1.18-M2</version>-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
@@ -96,6 +96,18 @@
             <groupId>e-iceblue</groupId>
             <artifactId>spire.pdf.free</artifactId>
             <version>2.6.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.60</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.5.Final</version>
         </dependency>
 
     </dependencies>
