@@ -1,0 +1,5 @@
+server:
+  port: 31111
+spring:
+  application:
+    name: high-performance

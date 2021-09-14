@@ -1,6 +1,5 @@
-package disruptor;
+package github.yang.disruptor;
 
-import com.google.common.base.Stopwatch;
 import com.lmax.disruptor.RingBuffer;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.util.DaemonThreadFactory;
@@ -34,20 +33,8 @@ public class DisruptorDemo {
             bb.putLong(0, l);
             //生产者生产消息
             ringBuffer.publishEvent((event, sequence, buffer) ->
-                    event.set(buffer.getLong(0)), bb);
+                    event.setValue(buffer.getLong(0)), bb);
             Thread.sleep(1000);
-        }
-    }
-
-    /**
-     * 自定义Event
-     */
-    private static class LongEvent {
-
-        private long value;
-
-        public void set(long value) {
-            this.value = value;
         }
     }
 
